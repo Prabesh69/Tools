@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  body{
+    height: 200vh;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    z-index: 999;
+    width: 100vw;
+    position: fixed;
+    width: 100vw;
+    /* flex-direction: row; */
+  }
+  
+  .logo {
+    font-size: 24px;
+    /* width: 50%; */
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+  }
+  
+  .nav-links li {
+    list-style: none;
+    padding: 8px;
+    border-radius: 15px;
+  }
+  .nav-links li:hover {
+    background-color: rgb(25, 109, 182);
+   /* transform: translateX(25%); */
+   transition: all 0.5s ease;;
+
+  }
+  
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .burger {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px;
+  }
+  .carousel-inner .item img {
+    width: 100%;
+    height: 70vh;
+  }
+  
+  .carousel-control {
+    background: none;
+    width: 5%;
+  }
+  
+  .carousel-control.left,
+  .carousel-control.right {
+    background-image: none;
+    color: #333;
+  }
+  /* #carouselExample{
+    width: 70vw;
+  } */
+  
+  @media screen and (max-width: 768px) {
+    .carousel-control {
+        width: 10%;
+      }
+    .nav-links {
+      width: 60%;
+    }
+  
+    body {
+      overflow-x: hidden;
+    }
+  
+    .nav-links,
+    .logo {
+      transition: all 0.5s ease;
+    }
+  
+    .nav-links {
+        padding: 10px 0;
+      position: absolute;
+      right: 0;
+      height: max-content;
+      top: 6vh;
+      background-color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 50%;
+      gap: 5vh;
+      transform: translateX(100%);
+    }
+  
+    .nav-links li {
+      opacity: 0;
+    }
+  
+    .burger {
+      display: block;
+    }
+  }
+  
+  .nav-active {
+    transform: translateX(0%);
+  }
+  
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+  
