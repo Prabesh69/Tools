@@ -1,0 +1,43 @@
+
+[
+    {
+      "name": "Place 1",
+      "title": "CSK wins the Ipl final for the 5th time against GT at Gujrat",
+      "description" : "Chennai Super Kings vs Gujarat Titans, IPL 2023 Final Highlights: Ravindra Jadeja finished in MS Dhoni style as he hit a six and a four off the last 2 balls to take Chennai Super Kings to their 5th Indian Premier League title in a rain-curtailed match on Monday.",
+      "image": ["bigp1.jpg","bigp1.1.webp"],
+      "currentImageIndex": 0
+    },
+    {
+        "name": "Place 1",
+        "title": "Bank of Canada hikes rates to 22-year high, more increases expected",
+        "image": ["smallp1.jpg","smallp1.1.jpg"],
+        "currentImageIndex": 0
+    },
+    {
+        "name": "Place 1",
+        "title": "Description of Place 1",
+        "image": ["bigp1.jpg","portfolio1.jpg"],
+      "currentImageIndex": 0
+    },
+    {
+        "name": "Place 1",
+        "title": "Description of Place 1",
+        "image": ["bigp1.jpg","portfolio1.jpg"],
+      "currentImageIndex": 0
+    }
+    ,
+    {
+        "name": "Place 1",
+        "title": "Description of Place 1",
+        "image": ["bigp1.jpg","portfolio1.jpg"],
+        "currentImageIndex": 0
+    }
+    ,
+    {
+        "name": "Place 1",
+        "title": "Description of Place 1",
+       "image": ["bigp1.jpg","portfolio1.jpg"],
+      "currentImageIndex": 0
+    }
+  ]
+  
